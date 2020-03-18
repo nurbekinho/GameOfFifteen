@@ -45,18 +45,12 @@ class Game(private val context: CanvasRenderingContext2D) {
 
     private fun onKeyDown(event: Event) {
         val keyboardEvent = event as KeyboardEvent
-        /*println(keyboardEvent.keyCode)
-        when (keyboardEvent.keyCode) {
-            37 -> println("left")
-            39 -> println("right")
-        }*/
+        //println(keyboardEvent.keyCode)
     }
 
     private fun onKeyUp(event: Event) {
         val keyboardEvent = event as KeyboardEvent
         when (keyboardEvent.keyCode) {
-            //37 -> println("left up")
-            //39 -> println("right up")
             //32 -> if (state == INTRO) start()
         }
     }
